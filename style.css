@@ -155,30 +155,3 @@ textarea {
   position: relative;
   z-index: 1;
 }
-
-/* FOOTER */
-.footer {
-    background: #252020;
-    color:whitesmoke;
-    height: 400px;
-    position: relative;
-}
-
-.footer .footer-content {
-    border: 1px solid black;
-    height: 350px;
-}
-
-.footer .footer-bottom {
-    background: #252020;
-    color:whitesmoke;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
-}
-
-/* MEDIA QUERIES */

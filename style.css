@@ -38,15 +38,15 @@ body {
 }
 
 .navbar ul li a{
-    text-decoration: none;
+    text-decoration: None;
     color: whitesmoke;
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
-    height: 3px;
+    height: 4px;
     width: 0;
-    background: black;
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -184,8 +184,8 @@ textarea {
 .text {
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
-    font-size: 6vw; /* Responsive font size */
-    font-weight: bold;
+    font-size: 2vw; /* Responsive font size */
+    font-weight: 600;
     margin: 0 auto; /* Center the text container */
     padding: 10px;
     width: 60%;
@@ -195,5 +195,9 @@ textarea {
     left: 30%; /* Position text in the middle */
     transform: translate(-50%, -50%); /* Position text in the middle */
     mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+
+h1 {
+    text-shadow: 4px 4px #80807f;
   }
 /* MEDIA QUERIES */

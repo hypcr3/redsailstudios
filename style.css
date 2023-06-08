@@ -201,3 +201,9 @@ h1 {
     text-shadow: 4px 4px #80807f;
   }
 /* MEDIA QUERIES */
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
